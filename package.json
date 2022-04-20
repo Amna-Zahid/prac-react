@@ -1,0 +1,81 @@
+{
+  "name": "pennyworth-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hookform/resolvers": "^1.3.2",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.16",
+    "array-move": "^3.0.1",
+    "aws-s3": "^2.0.5",
+    "axios": "^0.21.1",
+    "draft-js": "^0.11.7",
+    "draft-js-export-html": "^1.4.1",
+    "html-to-draftjs": "^1.5.0",
+    "material-ui-player": "^0.1.11",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-draft-wysiwyg": "^1.14.5",
+    "react-hook-form": "^6.14.2",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-s3": "^1.3.1",
+    "react-scripts": "4.0.1",
+    "react-sortable-hoc": "^1.11.0",
+    "react-swipeable-views": "^0.13.9",
+    "react-video-thumbnail": "^0.1.3",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "styled-components": "^5.2.1",
+    "typescript": "^4.0.3",
+    "uuid": "^8.3.2",
+    "web-vitals": "^0.2.4",
+    "yarn": "^1.22.18",
+    "yup": "^0.32.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/draft-js": "^0.10.44",
+    "@types/html-to-draftjs": "^1.4.0",
+    "@types/react-draft-wysiwyg": "^1.13.1",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/react-swipeable-views": "^0.13.0",
+    "@types/redux-immutable-state-invariant": "^2.1.1",
+    "@types/redux-thunk": "^2.1.0",
+    "@types/styled-components": "^5.1.7",
+    "@types/uuid": "^8.3.0"
+  }
+}

@@ -1,0 +1,13 @@
+div.DraftEditor-root {
+    width: 100% !important;
+    height: 100% !important;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    max-height: calc(100vh - 260px);
+    overflow: auto;
+    line-height: 28px;
+}
+h1[data-block='true'], h2[data-block='true'], h3[data-block='true'],h4[data-block='true'] {
+    color: #0d2e6e;
+}
